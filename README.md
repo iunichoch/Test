@@ -1,4 +1,4 @@
-markdown# LAB5 Binary Bomb Report
+LAB5 Binary Bomb Report
 Bomb Number: 50
 Username: nichoch
 
