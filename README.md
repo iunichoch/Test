@@ -1,4 +1,3 @@
-Here's the rewritten version in a more casual student voice:
 markdown# LAB5 Binary Bomb Report
 Bomb Number: 50
 Username: nichoch
