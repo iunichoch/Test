@@ -14,7 +14,7 @@ Answer: I am for medical liability at the federal level.
 
 ## Phase 2
 
-I went to `sys.phase_2`. I could see it called read_six_numbers so I knew
+I went to `sys.phase_2`. I could see it called `read_six_numbers` so I knew
 I needed to enter 6 numbers. The first two were hardcoded checks. The first number
 had to be 0, and the second had to be 1. Then there was a loop that kept checking
 each next number. I traced through the loop instructions and figured out the
@@ -35,12 +35,10 @@ Answer: 0 1 2 6 16 44
 ## Phase 3
 
 I looked at `sys.phase_3`. The first thing it does is check that your input 
-is exactly 10 characters long - if it's not, boom. 
-
-Then I noticed it had a list of numbers stored on the stack: 
+is exactly 10 characters long. Then I noticed it had a list of numbers stored on the stack 
 [9, 5, 10, 1, 6, 2, 3, 9, 6, 2]. It was using these to XOR against my input 
 and checking the result against a hidden table. XOR basically just flips bits 
-around, but it also works backwards, too. So if you 
+around, but it also works backwards too. So if you 
 know what the result is supposed to be and what number it was XORed with, you 
 can figure out the original input.
 
